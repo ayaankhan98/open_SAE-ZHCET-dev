@@ -1,0 +1,46 @@
+body {
+  background-color: lightgrey;
+}
+body #nav {
+  margin-top: 0px;
+  position: fixed;
+  width: 1517px;
+}
+body header {
+  background-image: url("images/c2.jpg");
+  font-weight: bold;
+  width: 1517px;
+  height: 640px;
+}
+body #menu_bar {
+  font-size: 10px;
+  text-align: right;
+  margin-right: 10px;
+}
+body #data {
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+body .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 70px;
+}
+body .container > div {
+  background-color: aliceblue;
+  padding: 10px;
+  width: 350px;
+  height: auto;
+  margin: 10px;
+}
+body footer {
+  background-color: black;
+  height: 200px;
+  color: aliceblue;
+}
+body footer > div {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style1.css.map */
